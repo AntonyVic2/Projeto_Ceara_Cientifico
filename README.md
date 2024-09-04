@@ -11,7 +11,7 @@ O aplicativo consiste em dois arquivos Python principais:
 1. `login.py`: O ponto de entrada do aplicativo
 2. `telas.py`: Contém a funcionalidade principal, incluindo as telas de login e principal
 
-## Script Principal (`main.py`)
+## Script Principal (`login.py`)
 
 ```python
 import customtkinter
@@ -141,7 +141,7 @@ def mostrar_localizacao():
    pip install customtkinter pyserial
    ```
 2. Certifique-se de que um dispositivo Arduino esteja conectado (opcional, necessário para recursos de hardware)
-3. Execute `main.py` para iniciar o aplicativo
+3. Execute `login.py` para iniciar o aplicativo
 
 ## Notas
 
