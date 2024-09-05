@@ -10,12 +10,12 @@ def exibir_tela_principal(janela):
     from telas import exibir_tela_principal
     exibir_tela_principal(janela)
 
-# mostra os coisa lá
+# mostra o painel
 janela = customtkinter.CTk()
 janela.title("Login")
 janela.geometry("500x300")
 
-# puxa
+# puxa a função 
 exibir_tela_login(janela, exibir_tela_principal)
 
 
